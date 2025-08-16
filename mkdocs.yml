@@ -11,3 +11,4 @@ nav:
   - Tweets: tweets.html
   - Blog:
     - Bots are copying random GitHub repos: blog/bots-001.md
+    - Warp Terminal is not a proper terminal: blog/warp-002.md
