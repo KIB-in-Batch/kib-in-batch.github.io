@@ -1,0 +1,10 @@
+site_name: KIB in Batch manual
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Introduction: intro.md
+  - KIB in Batch: kib-in-batch.md
+  - KIB in Batch POSIX API: kib-in-batch-posix-api.md
+  - KIB in Batch Package Management: kib-in-batch-package-management.md
+  - KIBDock: kibdock.md
