@@ -9,3 +9,5 @@ nav:
   - KIB in Batch Package Management: kib-in-batch-package-management.md
   - KIBDock: kibdock.md
   - Tweets: tweets.html
+  - Blog:
+    - Bots are copying random GitHub repos: blog/bots-001.md
