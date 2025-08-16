@@ -1,6 +1,6 @@
 site_name: KIB in Batch project
 theme:
-  name: material
+  name: material 
 nav:
   - Home: index.md
   - Introduction: intro.md
