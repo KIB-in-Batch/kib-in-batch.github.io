@@ -34,6 +34,11 @@ KIB in Batch is a lightweight Unix-like environment for Microsoft Windows.
 * Quickly get KIB in Batch running.
 * On the non-LTS version, deploy containers using KIBDock.
 
+### Use cases
+
+* IoT devices: KIB in Batch is a great tool for IoT devices. It is lightweight and, on IoT devices, it easily beats Cygwin, Msys and WSL.
+* As a shell to run when SSHing to a Windows server: Usually, you would not want to use CMD or PowerShell for a server. This is where KIB in Batch comes in, you run KIB in Batch on the server and you can use Unix commands while managing the Windows server.
+
 ## Features
 
 * KIBDock for creating and deploying containers.
