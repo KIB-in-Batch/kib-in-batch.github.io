@@ -13,7 +13,7 @@ KIB in Batch is a lightweight Unix-like environment for Microsoft Windows.
 ### Enterprise Ready
 
 * A minimal installation (without Nmap and Neovim) weighs only around 1 megabyte.
-* The project runs on any Windows version that is Windows Vista or newer (system must have cURL in PATH).
+* The project runs on any Windows version that is Windows 10 or newer (system must have cURL in PATH).
 * The project contains lots of features and an LTS version.
 
 ### Easy command-line shell
