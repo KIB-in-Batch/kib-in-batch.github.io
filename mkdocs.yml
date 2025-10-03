@@ -1,6 +1,20 @@
 site_name: KIB in Batch project
 theme:
-  name: material 
+  name: material
+  palette:
+    - scheme: default
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: 'indigo'
+      accent: 'indigo'
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
 nav:
   - Home: index.md
   - Introduction: intro.md
@@ -8,7 +22,6 @@ nav:
   - KIB in Batch POSIX API: kib-in-batch-posix-api.md
   - KIB in Batch Package Management: kib-in-batch-package-management.md
   - KIBDock: kibdock.md
-  - Tweets: tweets.html
   - Blog:
-    - Bots are copying random GitHub repos: blog/bots-001.md
-    - Warp Terminal is not a proper terminal: blog/warp-002.md
+      - Bots are copying random GitHub repos: blog/bots-001.md
+      - Warp Terminal is not a proper terminal: blog/warp-002.md
