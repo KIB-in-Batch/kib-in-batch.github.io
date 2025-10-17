@@ -14,6 +14,26 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - content.code.annotate
+    - content.code.copy
+    - content.tooltips
+    - search.highlight
+    - search.suggest
+    - toc.integrate
+  font:
+    text: 'Roboto'
+    code: 'Fira Code'
+  icon:
+    repo: fontawesome/brands/github
+extra_javascript:
+  - javascripts/animations.js
+extra_css:
+  - styles/animations.css
+  - https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Fira+Code&display=swap
 
 nav:
   - Home: index.md
