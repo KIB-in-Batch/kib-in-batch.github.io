@@ -41,7 +41,3 @@ nav:
   - KIB in Batch: kib-in-batch.md
   - KIB in Batch POSIX API: kib-in-batch-posix-api.md
   - KIB in Batch Package Management: kib-in-batch-package-management.md
-  - KIBDock: kibdock.md
-  - Blog:
-      - Bots are copying random GitHub repos: blog/bots-001.md
-      - Warp Terminal is not a proper terminal: blog/warp-002.md
