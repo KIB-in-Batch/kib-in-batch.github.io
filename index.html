@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="The KIB in Batch project, a lightweight Unix-like environment for Microsoft Windows">
+		<meta name="keywords" content="Windows, Microsoft, Unix, Linux, KIB in Batch, KIB, Cygwin, Msys, Msys2">
+		<meta name="author" content="benja2998">
+
+		<title>The KIB in Batch project</title>
+
+		<style>
+/* Basic CSS Reset */
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+			background-color: #f9f9f9;
+			color: #333;
+			padding: 20px;
+		}
+
+		header, footer {
+			background-color: #444;
+			color: #fff;
+			padding: 20px;
+			text-align: center;
+		}
+
+		nav a {
+			color: #fff;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+
+		main {
+			max-width: 800px;
+			margin: 20px auto;
+			background-color: #fff;
+			padding: 20px;
+			border-radius: 8px;
+			box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+		}
+
+		h1, h2, h3 {
+			margin-bottom: 15px;
+		}
+
+		p {
+			margin-bottom: 10px;
+		}
+
+		a {
+			color: #007BFF;
+		}
+
+		a:hover {
+			text-decoration: underline;
+		}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>The KIB in Batch Project</h1>
+			<nav>
+				<a href="#">Home</a>
+				<a href="https://github.com/KIB-in-Batch/pkg">Development</a>
+				<a href="mailto:benja2998@duck.com">Contact</a>
+			</nav>
+		</header>
+
+		<main>
+			<h2>KIB in Batch Home</h2>
+			<p>
+			KIB in Batch is a lightweight Unix-like environment for Microsoft Windows.
+			</p>
+			<h3>Installation</h3>
+			<p>
+			We recommend you get the latest release <a href="https://github.com/KIB-in-Batch/kib-in-batch/releases/latest">here</a>.
+			</p>
+			<h3>Features</h3>
+			<ul>
+				<li>Built-in package manager</li>
+				<li>Blazingly fast</li>
+				<li>Very few dependencies</li>
+				<li>Uninstaller can back up home directory, which is automatically restored if you reinstall</li>
+			</ul>
+			<h3>KIB in Batch 11</h3>
+			<h4>Installation</h4>
+			<p>
+			If you for some reason want version 11 (still in early development), here's how to get it.
+			</p>
+			<p>
+			Run these in a PowerShell session:
+			</p>
+			<pre><code>
+			git clone https://github.com/KIB-in-Batch/kib-in-batch
+			Set-Location -Path "kib-in-batch"
+			src\kib_in_batch.bat
+			</code></pre>
+			<p>
+			You can then test edge cases, hack around with it (a lot of the code is batch files), and submit bug reports.
+			</p>
+			<h4>Roadmap</h4>
+			<ul>
+				<li>More advanced package manager features</li>
+				<li>More complete and faster POSIX layer</li>
+				<li>Modular system (the software itself as a package)</li>
+			</ul>
+		</main>
+
+		<footer>
+			<p>&copy; 2026 benja2998. All rights reserved.</p>
+			<p>There are no JavaScript or cookies on this website.</p>
+		</footer>
+	</body>
+</html>
