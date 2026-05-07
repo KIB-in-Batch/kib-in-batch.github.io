@@ -1,0 +1,12 @@
+{
+  "name": "KIB in Batch",
+  "short_name": "KIB",
+  "description": "A lightweight Unix-like environment for Microsoft Windows.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#08111f",
+  "theme_color": "#08111f",
+  "lang": "en",
+  "categories": ["developer", "utilities", "productivity"]
+}
