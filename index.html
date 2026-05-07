@@ -226,11 +226,8 @@
       }
 
       .hero {
-        display: grid;
-        grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.85fr);
-        gap: 2rem;
-        align-items: center;
-        padding: 4.5rem 0 3rem;
+        max-width: 48rem;
+        padding: 4.5rem 0 3.25rem;
       }
 
       .eyebrow {
@@ -387,6 +384,19 @@
         align-items: start;
       }
 
+      .install-panel {
+        display: grid;
+        gap: 1rem;
+      }
+
+      .install-panel p {
+        margin-bottom: 0;
+      }
+
+      .install-panel .terminal {
+        box-shadow: none;
+      }
+
       ul {
         display: grid;
         gap: 0.7rem;
@@ -406,7 +416,6 @@
 
       @media (max-width: 760px) {
         .topbar,
-        .hero,
         .install-grid {
           grid-template-columns: 1fr;
         }
@@ -421,6 +430,7 @@
 
         .hero {
           padding-top: 2.5rem;
+          padding-bottom: 2rem;
         }
 
         h1 {
@@ -451,27 +461,15 @@
 
     <main id="main" class="page-shell">
       <section class="hero" aria-labelledby="hero-title">
-        <div>
-          <p class="eyebrow">🪟 Windows + Unix workflows</p>
-          <h1 id="hero-title">KIB in Batch</h1>
-          <p>
-            A lightweight Unix-like environment for Microsoft Windows. Get familiar command-line utilities, a built-in package manager, and a fast setup without a full Linux subsystem.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="https://github.com/KIB-in-Batch/kib-in-batch/releases/latest">⬇️ Download latest release</a>
-            <a class="button" href="https://github.com/KIB-in-Batch/kib-in-batch">⭐ View source</a>
-          </div>
+        <p class="eyebrow">🪟 Windows + Unix workflows</p>
+        <h1 id="hero-title">KIB in Batch</h1>
+        <p>
+          A lightweight Unix-like environment for Microsoft Windows. Get familiar command-line utilities, a built-in package manager, and a fast setup without a full Linux subsystem.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="https://github.com/KIB-in-Batch/kib-in-batch/releases/latest">⬇️ Download latest release</a>
+          <a class="button" href="https://github.com/KIB-in-Batch/kib-in-batch">⭐ View source</a>
         </div>
-        <aside class="terminal" aria-label="KIB in Batch installation commands">
-          <div class="terminal-bar" aria-hidden="true">
-            <span class="dot"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-          <pre><code>git clone https://github.com/KIB-in-Batch/kib-in-batch
-Set-Location -Path "kib-in-batch"
-src\kib_in_batch.bat</code></pre>
-        </aside>
       </section>
 
       <section aria-labelledby="why-title">
@@ -528,7 +526,7 @@ src\kib_in_batch.bat</code></pre>
               <a class="button primary" href="https://github.com/KIB-in-Batch/kib-in-batch/releases/latest">Get the latest release</a>
             </p>
           </div>
-          <div class="panel">
+          <div class="panel install-panel">
             <h3>KIB in Batch 11 🧪</h3>
             <p>
               Version 11 is still in early development. Use it if you want to test edge cases, explore the codebase, and submit bug reports.
